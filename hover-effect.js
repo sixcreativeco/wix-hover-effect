@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 const numPoints = 5;
 let points = [];
 
@@ -31,3 +32,4 @@ function updateBackground() {
 
     document.body.style.background = gradient;
 }
+});
